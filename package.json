@@ -1,7 +1,12 @@
 {
   "name": "email-api",
   "version": "1.0.0",
-  "description": "",
+  "dependencies": {
+    "express": "*",
+    "request": "*",
+    "cors": "*",
+    "body-parser": "*"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/CrackTheCode016/email-api/issues"
   },
-  "homepage": "https://github.com/CrackTheCode016/email-api#readme"
+  "homepage": "https://github.com/CrackTheCode016/email-api#readme",
+  "description": ""
 }
