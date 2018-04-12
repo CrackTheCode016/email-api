@@ -8,7 +8,7 @@ const app = express();
 
 app.use(bodyParser.json());
 var corsOptions = {
-  orgin: 'http://example.com',
+  orgin: 'http://localhost:4200/',
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
